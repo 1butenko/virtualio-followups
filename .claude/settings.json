@@ -1,0 +1,44 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__claude_ai_Notion__notion-fetch",
+      "mcp__claude_ai_Notion__notion-query-data-sources",
+      "mcp__claude_ai_Notion__notion-update-page",
+      "mcp__claude_ai_Airtable__list_tables_for_base",
+      "mcp__claude_ai_Airtable__get_table_schema",
+      "mcp__claude_ai_Airtable__list_records_for_table",
+      "Read(./config.md)"
+    ],
+    "deny": [
+      "mcp__claude_ai_Gmail",
+      "mcp__claude_ai_Slack",
+      "mcp__claude_ai_Notion__notion-delete-pages",
+      "mcp__claude_ai_Notion__notion-delete-databases",
+      "mcp__claude_ai_Notion__notion-move-pages",
+      "mcp__claude_ai_Notion__notion-duplicate-page",
+      "mcp__claude_ai_Notion__notion-create-pages",
+      "mcp__claude_ai_Notion__notion-create-database",
+      "mcp__claude_ai_Notion__notion-update-data-source",
+      "mcp__claude_ai_Notion__notion-create-comment",
+      "mcp__claude_ai_Notion__notion-delete-comment",
+      "mcp__claude_ai_Notion__notion-restore-pages",
+      "mcp__claude_ai_Notion__notion-restore-version",
+      "mcp__claude_ai_Airtable__create_base",
+      "mcp__claude_ai_Airtable__create_table",
+      "mcp__claude_ai_Airtable__create_field",
+      "mcp__claude_ai_Airtable__create_records_for_table",
+      "mcp__claude_ai_Airtable__update_records_for_table",
+      "mcp__claude_ai_Airtable__delete_records_for_table",
+      "mcp__claude_ai_Airtable__update_field",
+      "mcp__claude_ai_Airtable__update_table",
+      "mcp__claude_ai_Airtable__delete_table",
+      "mcp__claude_ai_Airtable__create_automation",
+      "mcp__claude_ai_Airtable__update_automation",
+      "mcp__claude_ai_Airtable__delete_automation",
+      "mcp__claude_ai_Airtable__create_record_comment",
+      "mcp__claude_ai_Airtable__revert_action",
+      "mcp__claude_ai_Airtable__submit_form",
+      "mcp__claude_ai_Airtable__list_secrets"
+    ]
+  }
+}
